@@ -25,4 +25,3 @@ while(compguess!=userguess):
             print('you borken the last score')
             with open("highscore.text","w") as f:
                  f.write(str(guesses))
-
